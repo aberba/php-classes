@@ -1,2 +1,2 @@
 # php-classes
-PHP classes I use often in my projects
+A collection of reusable PHP classes that I use often in my projects.
