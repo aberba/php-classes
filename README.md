@@ -12,21 +12,19 @@ class Users {
     public function fetchAll() {
         global $Database; //import variable $Database into the scope of this method
         
-        $results = $Database->query("SELECT * FROM ". static::$table_name .""); // returns true for sucess or false for error, see class.database.php
+        $results = $Database->query("SELECT * FROM ". static::$table_name); // returns true for sucess or false for error, check class.database.php
         
         if (!$results) return false;
         
-        $users  = $result = $Database->fetchData($results);
+        // Theres is also $Database->numRows($results < 1);, check class.database.php
         
-        if ($Database->nrumRows($results < 1)) return false;
+        $output = []; // or $output = array(); for backward compatibility
         
-        $output = []; // or $output = array(); for bacward compatibility
         while ($row = $Database->fetchData($results)) {
             $output[] = $row; //append to array
         }
         
         return $output;
-        
 }
 ```
 
