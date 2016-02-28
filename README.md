@@ -5,8 +5,7 @@ A collection of reusable PHP classes that I use often in my projects.
 This class is used for connecting to databse, as well as, making CRUD operations. It ipliments a global variable `$Database` 
 which you can use in you app like below;
 
-`php
-
+```php
 class Users {
     private $table_name = "users";
     
@@ -29,10 +28,10 @@ class Users {
         return $output;
         
 }
-`
+```
 
-`php
 Using Users class
+```php
 $users = new User();
 $records = $users->fetchAll();
-`
+```
