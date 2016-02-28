@@ -10,9 +10,11 @@ class Users {
     private $table_name = "users";
     
     public function fetchAll() {
-        global $Database; //import variable $Database into the scope of this method
+        //import variable $Database into the scope of this method
+        global $Database; 
         
-        $results = $Database->query("SELECT * FROM ". static::$table_name); // returns true for sucess or false for error, check class.database.php
+        // returns true for sucess or false for error, check class.database.php
+        $results = $Database->query("SELECT * FROM ". static::$table_name); 
         
         if (!$results) return false;
         
