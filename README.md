@@ -1,5 +1,6 @@
-# php-classes
-A collection of reusable PHP classes that I use often in my projects.
+# My PHP Classes
+A collection of reusable PHP classes that I use often in my projects. You free to use for whatever project you want. 
+Suggestions for improvement are warmly welcome :)
 
 ## Using class.database.php
 This class is used for connecting to databse, as well as, making CRUD operations. It ipliments a global variable `$Database` 
