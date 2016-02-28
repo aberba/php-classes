@@ -82,5 +82,10 @@ class Database {
     }
 }
 
+/* ***** Global instance of class ******
+
+e.g. $result = $Database->query("SELECT * FROM users");
+
+*/
 $Database = new Database();
 ?>
