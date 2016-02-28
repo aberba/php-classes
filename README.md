@@ -6,6 +6,7 @@ This class is used for connecting to databse, as well as, making CRUD operations
 which you can use in you app like below;
 
 `php
+
 class Users {
     private $table_name = "users";
     
