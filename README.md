@@ -1,5 +1,5 @@
 # My PHP Classes
-A collection of reusable PHP classes that I use often in my projects. You free to use for whatever project you want. 
+A collection of reusable PHP classes that I use often in my projects. You are free to use for whatever project you want. 
 Suggestions for improvement are warmly welcome :)
 
 ## Using class.database.php
