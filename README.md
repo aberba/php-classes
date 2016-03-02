@@ -3,8 +3,8 @@ A collection of reusable PHP classes that I use often in my projects. You are fr
 Suggestions for improvement are warmly welcome :)
 
 ## Using class.database.php
-This file declares a class `Database` is used for connecting to your databse, as well as, making CRUD operations. It impliments a global variable `$Database`. The class has been dessing to abstract he underlining database type, so use can use MySQL, MSSQL, SQLite, MongoDB, etc. in-place of the default `MySQL` database.
-which you can use in you app like below;
+This file declares a class `Database` is used for connecting to your databse, as well as, making CRUD operations. It impliments a global variable `$Database`. The class has been designed to abstract he underlining database type, so use can use MySQL, MSSQL, SQLite, MongoDB, etc. in-place of the default `MySQL` database. 
+See usage below;
 
 ```php
 class Users {
